@@ -1,0 +1,101 @@
+* {
+    background-color: darkgray;
+}
+
+.header{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+}
+
+.top_page{
+    background-color: fuchsia;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li{
+    font-size: 21px;
+    background-color: fuchsia;
+    display: inline-block;
+    color: black;
+    padding: 20px 20px
+}
+
+.btn {
+    background-color: black;
+    margin-right: 5%;
+    color: white;
+    width: 60px;
+    height: 25px;
+}
+
+.article{
+    background-color: white;
+    margin-left: 5%;
+    position: relative;
+    width: 70%;
+    height: 70%;
+    float: left;
+}
+
+h2{
+    font-size: 35px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h3{
+    font-size: 30px;
+    margin: 1%;
+    background-color: white;
+    font-weight: bold;
+    font-style: italic;
+}
+
+p{
+    margin: 1%;
+    font-size: 21px;
+    background-color: white;
+}
+
+.related{
+    background-color: fuchsia;
+    float: left;
+    width: 19%;
+    margin-bottom: unset;
+}
+.color_fuchsia{
+    font-size: 21px;
+    background-color: fuchsia;
+}
+div{
+    margin: 3px 3px;
+}
+
+.down_of_page{
+    margin-right: 5%;
+    margin-left: 5%;
+    float: left;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 90%;
+    padding-left: 15px;
+    display: flex;
+}
+
+input{
+    background-color: white;
+    height: 25px;
+}
